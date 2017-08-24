@@ -27,5 +27,21 @@ drwxr-xr-x 2 renan users 4.0K Aug 23 23:33 The.File.2
 ## Install
 Just copy the script "extractor.py" to the directory that has this structure. 
 
+
 ## How to run
 It will search recursively for all .rar files and extract it.
+```bash
+$ python extractor.py
+Extracting: The.File/the.file.rar
+[  OK ] The.File/the.file.rar
+Extracting: The.File.2/the.file.2.rar
+[  OK ] The.File.2/the.file.2.rar
+```
+
+This is the final result
+```bash
+drwxr-xr-x 2 renan users 4.0K Aug 24 09:08 The.File
+-rw-r--r-- 1 renan users 1.1G Aug 18 16:16 The.File.mkv
+drwxr-xr-x 2 renan users 4.0K Aug 23 23:33 The.File.2
+-rw-r--r-- 1 renan users 989M Aug 18 16:20 The.File.2.mkv
+```
