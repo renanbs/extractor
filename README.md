@@ -28,6 +28,10 @@ drwxr-xr-x 2 renan users 4.0K Aug 23 23:33 The.File.2
 Just copy the script "extractor.py" to the directory that has this structure. 
 
 
+## Dependencies
+The only dependencies is to have unrar installed. I haven't done any checks for it.
+
+
 ## How to run
 It will search recursively for all .rar files and extract it.
 ```bash
